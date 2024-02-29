@@ -1,0 +1,31 @@
+<svg width="124" height="121" viewBox="0 0 124 121" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0_171_76" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="121" height="121">
+<rect width="120.58" height="120.58" fill="url(#pattern0)"/>
+</mask>
+<g mask="url(#mask0_171_76)">
+<rect width="120.58" height="120.58" fill="url(#pattern1)"/>
+<rect width="120.58" height="120.58" fill="#854F6C"/>
+</g>
+<mask id="mask1_171_76" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3" y="0" width="121" height="121">
+<rect x="3" width="120.58" height="120.58" fill="url(#pattern2)"/>
+</mask>
+<g mask="url(#mask1_171_76)">
+<rect x="3" width="120.58" height="120.58" fill="url(#pattern3)"/>
+<rect x="3" width="120.58" height="120.58" fill="white"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_171_76" transform="scale(0.0104167)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_171_76" transform="scale(0.0104167)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_171_76" transform="scale(0.0104167)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_171_76" transform="scale(0.0104167)"/>
+</pattern>
+<image id="image0_171_76" width="96" height="96" xlink:href="data:image/png;base64,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"/>
+</defs>
+</svg>

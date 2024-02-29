@@ -1,43 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: "Mali";
+    font-family: "Noto Sans";
     color: white;
 }
 
 .header {
-    max-width: 100%;
+    width:  100vw;
+    height: 100vh;
     background-size: cover;
     background-image: url(../images/headerImage.svg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
+    padding-left: 5vw;
 }
 
 .headerTitle {
-    padding-top: 5%;
-    padding-left: 5%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding-top: 5vw;
 }
 
 .titleImage {
+height: 40vh;
+width: 40vh;
+}
 
-
+.Logo{
+    width: 40vh;
+    height: 40vh;
 }
 
 .titleText {
-    font-size: 60px;
-    font-style:unset;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 8vw;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .headerText {
-    font-size: 18px;
+    margin-top: 5vh;
+    padding-right: 50vw;
+    font-size: 2.4vw;
+    font-weight: 650;
 }
 
-.headerButton {}
+.headerButton {
+    margin-top: 13vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2vw;
+}
 
-.headerBTN {}
+.headerBTN {
+    background-color: white;
+    border-radius: 1vw;
+    padding: 1vh 2vw;
+    font-size: 2.4vw;
+    color: #1B1016;
+    font-weight: bold;
+}
+
+.headerBTN:hover {
+    background-color: ;
+    border-radius: 1vw;
+    padding: 1vh 2vw;
+    font-size: 2.4vw;
+    color: #1B1016;
+    font-weight: bold;
+}
+
 
 .about {
     background: linear-gradient(#451933, #280028);

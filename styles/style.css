@@ -158,7 +158,7 @@ body {
 
 
 /*доделать анимацию кнопки*/
-.generaleBTN:hover{
+.generaleBTN:hover {
     border: 0.4vw solid white;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 2vw;
@@ -175,21 +175,19 @@ body {
     background: linear-gradient(#280128, #2B124C);
 }
 
-.artistsImages{
+.artistsImages {
     display: flex;
     padding: 5vh 0vw;
     justify-content: space-evenly;
 }
 
-.ImageDown{
-margin-top: 10vh;
+.ImageDown {
+    margin-top: 10vh;
 }
 
-.ImageUp{
+.ImageUp {}
 
-}
-
-.ImageOfArtist{
+.ImageOfArtist {
     width: 30vh;
     height: 30vh;
 }
@@ -206,14 +204,15 @@ margin-top: 10vh;
     justify-content: center;
 }
 
-.ImageOfTour{
+.ImageOfTour {
     width: 60vw;
     height: 45vh;
 }
 
-.borts{
+.borts {
     padding: 5vh 0;
 }
+
 .suppurt {
     width: 100vw;
     height: 100vh;
@@ -228,34 +227,69 @@ margin-top: 10vh;
 
 .feetback {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .feedbackInput {
-    
+    flex-direction: column;
 }
 
 .feedbackFullImput {
     display: flex;
     flex-direction: column;
-    border-radius: 5vh;
+    border-radius: 3vh;
     background-color: #522B5B;
-    height: 45vh;
+    height: 40vh;
+    width: 35vw;
 }
 
-
+/*додеоать импут*/
 .feebackInputBoard {
-    border-radius: 5vh;
+    border-radius: 0 0 3vh 3vh;
     background-color: white;
-    height: 45vh;
+    height: 40vh;
+    width: 35vw;
+    color: black;
 }
 
-.feedbackButton {}
+.feedbackButton {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
 
-.feedbackBTN {}
+.feedbackBTN {
+    background-color:#522B5B;
+    border: 0.4vw solid #522B5B;
+    border-radius: 1vw;
+    padding: 0.5vh 1vw;
+    font-weight: bold;
+}
 
-.network {}
+.Bort{
+    margin-bottom: 4vh;
+}
 
-.networkIcons {}
+.network {
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.networkIcon {}
+.networkIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.networkIcon {
+padding: 0 1vw;
+}
+
+.ImageOfNetwork{
+    width: 12vh;
+    height: 12vh;
+}

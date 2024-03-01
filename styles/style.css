@@ -77,11 +77,13 @@ body {
 
 
 .about {
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(#451933, #280028);
 }
 
 .generaleTitle {
-    padding: 7vh 0;
+    padding-top: 5vh;
     text-align: center;
     font-size: 5vw;
 }
@@ -118,7 +120,7 @@ body {
 }
 
 .generaleButton {
-    padding: 5vw 0;
+    padding: 7vh 0 10vh;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -127,7 +129,7 @@ body {
 }
 
 .generaleBTN {
-    border: 4px solid white;
+    border: 0.4vw solid white;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 2vw;
     padding: 1vh 2vw;
@@ -157,7 +159,7 @@ body {
 
 /*доделать анимацию кнопки*/
 .generaleBTN:hover{
-    border: 4px solid white;
+    border: 0.4vw solid white;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 2vw;
     padding: 1vh 2vw;
@@ -168,30 +170,85 @@ body {
 
 
 .artists {
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(#280128, #2B124C);
 }
 
-.artistsImages {}
+.artistsImages{
+    display: flex;
+    padding: 5vh 0vw;
+    justify-content: space-evenly;
+}
+
+.ImageDown{
+margin-top: 10vh;
+}
+
+.ImageUp{
+
+}
+
+.ImageOfArtist{
+    width: 30vh;
+    height: 30vh;
+}
 
 .tour {
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(#2B124C, #522B5B);
 }
 
-.tourImage {}
+.tourImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.ImageOfTour{
+    width: 60vw;
+    height: 45vh;
+}
+
+.borts{
+    padding: 5vh 0;
+}
 .suppurt {
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(#522B5B, #854F6C);
 }
 
-.supportBody {}
+.supportBody {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-around;
+}
 
-.feetback {}
+.feetback {
+    display: flex;
+    flex-direction: column;
+}
 
-.feedbackInput {}
+.feedbackInput {
+    
+}
 
-.feedbackImputTitle {}
+.feedbackFullImput {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5vh;
+    background-color: #522B5B;
+    height: 45vh;
+}
 
-.feebackInputBoard {}
+
+.feebackInputBoard {
+    border-radius: 5vh;
+    background-color: white;
+    height: 45vh;
+}
 
 .feedbackButton {}
 

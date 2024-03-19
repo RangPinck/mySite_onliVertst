@@ -136,6 +136,7 @@ body {
     font-size: 2.4vw;
     color: white;
     display: flex;
+    fill: white;
 }
 
 
@@ -154,8 +155,7 @@ body {
 
 .ImageOfGeneralButton {
     width: 4vw;
-    height: 4vw;
-    fill:white;
+    height: 4vw;   
 }
 
 /*доделать анимацию кнопки*/
@@ -164,7 +164,11 @@ body {
     border: 0.4vw solid #522B5B;
     color: #522B5B;
     background-color: white;
+    fill: #522B5B;
 }
+
+
+
 
 .artists {
     width: 100vw;

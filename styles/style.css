@@ -250,7 +250,10 @@ body {
     background-color: white;
     height: 40vh;
     width: 35vw;
-    color: black;
+    color: #522B5B;
+    font-size: 1.5vw;
+    padding: 1.2vw;
+    line-height: 1.1vh;
 }
 
 .feedbackButton {

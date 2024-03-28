@@ -67,7 +67,7 @@ body {
 }
 
 .headerBTN:hover {
-    border: 4px solid white;
+    border: 5px solid white;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 1vw;
     padding: 1vh 2vw;
@@ -158,7 +158,6 @@ body {
     height: 4vw;   
 }
 
-/*доделать анимацию кнопки*/
 .generaleBTN:hover {
     padding: 1.5vh 2.5vw;
     border: 0.4vw solid #522B5B;
@@ -166,9 +165,6 @@ body {
     background-color: white;
     fill: #522B5B;
 }
-
-
-
 
 .artists {
     width: 100vw;

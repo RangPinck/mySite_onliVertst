@@ -1,11 +1,14 @@
-body{
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(#2B124C, #522B5B);
 }
 
 .headerline {
-    margin: 4vh 20vw;
+    margin: 2vh 20vw;
     display: flex;
     justify-content: space-between;
 }
@@ -18,44 +21,137 @@ body{
 
 }
 
-.variantNavigation:hover{
+.variantNavigation:hover {
     border: 0.2vw solid white;
     border-radius: 1vw;
     color: white;
 }
 
-.navigationIcon{
+.navigationIcon {
     margin-right: 0.5vw;
-    height: 1vh;
+    height: 0.5vw;
 }
 
-.navImage{
-    height: 2vw;
+.navImage {
+    height: 1.7vw;
 }
 
 .navigationTitle {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .formCreateOrder {
+    font-size: 1.3vw;
+    border: 0.3vw solid white;
+    border-radius: 3vw;
+    height: 79vh;
+    width: 50vw;
+}
+
+.titleBuyTickit {
+    margin: 1vh 0 2vh;
+    text-align: center;
+    font-size: 2.5vw;
 }
 
 .InputDataAlignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .InputDataTitle {
+    margin: 3vh 0 1vh;
+    text-align: center;
 }
 
 .InputDataRow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5vw;
 }
 
 .InputDataDateNow {
+    width: 16.5vw;
+    text-align: center;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw 0 0 0.5vw;
+    padding: 0.5vh 2vw;
+    height: 5.5vh;
 }
 
 .InputDataDateDash {
+    height: 5.5vh;
+    border: 0.1vw solid white;
+    padding: 0.5vh 2vw;
 }
 
 .InputDataDateNext {
+    width: 16.5vw;
+    text-align: center;
+    border: 0.1vw solid white;
+    border-radius: 0 0.5vw 0.5vw 0;
+    padding: 0.5vh 2vw;
+    height: 5.5vh;
 }
 
+.City {}
+
+.searchInput {
+    padding: 1vw 1vw;
+    width: 37.3vw;
+    height: 5.5vh;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    text-align: center;
+}
+
+.searchInput:focus {
+    background-color: white;
+    color: #2B124C;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    text-align: center;
+}
+
+.concertHall {}
+
+.inputMail {}
+
+.buttonBuyTickit {
+    margin: 3vh 0 1vh;
+    width: 37.3vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnBuyTickit {
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 0.5vw 3vh;
+}
+
+.btnBuyTickit:hover {
+    background-color: white;
+    color: #2B124C;
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 0.5vw 3vh;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none; 
+}
+input[type="date"]::-moz-calendar-picker-indicator {
+    display: none; 
+}
+
+input[type="date"]::-ms-calendar-picker-indicator {
+    display: none; 
+}

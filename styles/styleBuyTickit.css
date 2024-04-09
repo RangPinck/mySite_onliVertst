@@ -9,40 +9,6 @@ body {
     background: linear-gradient(#2B124C, #522B5B);
 }
 
-.headerline {
-    margin: 2vh 20vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.variantNavigation {
-    border: 0.2vw solid transparent;
-    display: flex;
-    color: white;
-    padding: 0.5vh 1vw;
-
-}
-
-.variantNavigation:hover {
-    border: 0.2vw solid white;
-    border-radius: 1vw;
-    color: white;
-}
-
-.navigationIcon {
-    margin-right: 0.5vw;
-    height: 0.5vw;
-}
-
-.navImage {
-    height: 1.7vw;
-}
-
-.navigationTitle {
-    text-align: center;
-    font-size: 1.3vw;
-}
-
 .formCreateOrder {
     font-size: 1.3vw;
     border: 0.3vw solid white;

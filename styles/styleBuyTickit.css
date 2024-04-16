@@ -113,7 +113,7 @@ body {
     padding: 0.5vw 3vh;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+/* input[type="date"]::-webkit-calendar-picker-indicator {
     display: none; 
 }
 input[type="date"]::-moz-calendar-picker-indicator {
@@ -122,4 +122,10 @@ input[type="date"]::-moz-calendar-picker-indicator {
 
 input[type="date"]::-ms-calendar-picker-indicator {
     display: none; 
-}
+} */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('../images/Anoter/icons/icons8-календарь-64.png');
+    background-position: center;
+    background-size: 1.5vw; 
+  }

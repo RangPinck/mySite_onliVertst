@@ -7,7 +7,6 @@ body {
 }
 
 .header {
-    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-image: url(../images/Index/header/headerImage.svg);
@@ -77,7 +76,6 @@ body {
 
 
 .about {
-    width: 100vw;
     height: 100vh;
     background: linear-gradient(#451933, #280028);
 }
@@ -167,7 +165,6 @@ body {
 }
 
 .artists {
-    width: 100vw;
     height: 100vh;
     background: linear-gradient(#280128, #2B124C);
 }
@@ -190,7 +187,6 @@ body {
 }
 
 .tour {
-    width: 100vw;
     height: 100vh;
     background: linear-gradient(#2B124C, #522B5B);
 }
@@ -211,7 +207,6 @@ body {
 }
 
 .suppurt {
-    width: 100vw;
     height: 100vh;
     background: linear-gradient(#522B5B, #854F6C);
 }

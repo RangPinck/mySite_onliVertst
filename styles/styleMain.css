@@ -10,6 +10,7 @@ body {
 
 .header {
     height: 100vh;
+    width: 100%;
     background-size: cover;
     background-image: url(../images/Index/header/headerImage.svg);
     background-repeat: no-repeat;
@@ -76,9 +77,9 @@ body {
     color: #1B1016;
 }
 
-
 .about {
     height: 100vh;
+    width: 100%;
     background: linear-gradient(#451933, #280028);
 }
 
@@ -139,7 +140,6 @@ body {
     fill: white;
 }
 
-
 .btnText {
     text-align: center;
     font-weight: bold;
@@ -168,6 +168,7 @@ body {
 
 .artists {
     height: 100vh;
+    width: 100%;
     background: linear-gradient(#280128, #2B124C);
 }
 
@@ -190,6 +191,7 @@ body {
 
 .tour {
     height: 100vh;
+    width: 100%;
     background: linear-gradient(#2B124C, #522B5B);
 }
 
@@ -210,6 +212,7 @@ body {
 
 .suppurt {
     height: 100vh;
+    width: 100%;
     background: linear-gradient(#522B5B, #854F6C);
 }
 

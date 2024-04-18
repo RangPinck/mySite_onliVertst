@@ -8,9 +8,10 @@ body {
     height: 100%;
 }
 
-.generaleTitle{
+.generaleTitle {
     margin: 5vh;
 }
+
 .aligmantContentBody {}
 
 .ArtistCardBorder {
@@ -18,23 +19,28 @@ body {
     border-radius: 2vw;
     padding: 5vh 2vw;
     margin: 2vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .imageArtist {
     border: 0.5vw solid white;
     border-radius: 1vw;
-    padding: 1vh 0.5vw;
+    padding: 1vh 0.35vw;
+    
 }
 
 .artistImg {
-    width: 28vw;
-    height: 70vh;
+    width: 14vw;
+    height: 35vh;
     border-radius: 0.5vw;
 }
 
 .artistsInforamion {}
 
-.aiTitle {}
+.aiTitle {
+    text-align: center;
+}
 
 .aiLinksToPleer {}
 
@@ -46,7 +52,12 @@ body {
 
 .aiLinksToPleer_vk {}
 
-.topTrackInstruction {}
+.InstructionBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Instruction {}
 
 .top3trecks {}
 

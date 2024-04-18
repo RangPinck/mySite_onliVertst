@@ -4,15 +4,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(#2B124C, #522B5B);
 }
 
 .headerline {
     margin: 2vh 20vw;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+    background-color: #2B124C;
+    border-radius: 1vw;
+    border: 0.2vw solid white;
+    padding: 1vh 0.5vw;
 }
 
 .variantNavigation {
@@ -20,7 +23,6 @@ body {
     display: flex;
     color: white;
     padding: 0.5vh 1vw;
-
 }
 
 .variantNavigation:hover {

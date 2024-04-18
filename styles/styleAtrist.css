@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(#451933,
+            #280028,
+            #2B124C,
+            #522B5B,
+            #854F6C) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.generaleTitle{
+    margin: 5vh;
+}
+.aligmantContentBody {}
+
+.ArtistCardBorder {
+    border: 0.5vw solid white;
+    border-radius: 2vw;
+    padding: 5vh 2vw;
+    margin: 2vh;
+}
+
+.imageArtist {
+    border: 0.5vw solid white;
+    border-radius: 1vw;
+    padding: 1vh 0.5vw;
+}
+
+.artistImg {
+    width: 28vw;
+    height: 70vh;
+    border-radius: 0.5vw;
+}
+
+.artistsInforamion {}
+
+.aiTitle {}
+
+.aiLinksToPleer {}
+
+.aiLinksToPleer_yandex {}
+
+.aiLinksToPleer_apple {}
+
+.aiLinksToPleer_spotify {}
+
+.aiLinksToPleer_vk {}
+
+.topTrackInstruction {}
+
+.top3trecks {}
+
+.topTrack_1 {}
+
+.tackTitle {}
+
+.topTrack_2 {}
+
+.topTrack_3 {}

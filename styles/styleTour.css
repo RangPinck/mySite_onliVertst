@@ -1,0 +1,74 @@
+.generaleTitle {
+    margin: 5vh;
+}
+
+.contentTour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.serches {
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.InputDataRow {
+    width: 35vw;
+}
+
+.searchInput {
+    width: 35vw;
+    margin-left: 4vw;
+}
+
+.tourList {
+    border: 0.5vw solid white;
+    border-radius: 1vw;
+    padding: 2vh 1vw;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputDataTitle{
+    font-size: 1.5vw;
+}
+
+.aiTitle {
+    margin-bottom: 2vh;
+}
+
+.tourItem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tourCity {
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    padding: 2vh 1vw;
+    margin:  0 2.5vw;
+}
+
+.cityTitle {
+    font-size: 1.3vw;
+    text-decoration: underline;
+}
+
+.dateVist {
+
+}
+
+.visitPlace {}
+
+.tourCityWas {
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    padding: 2vh 1vw;
+    margin:  0 2.5vw;
+    color: #2B124C;
+    background-color: white;
+}

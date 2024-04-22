@@ -1,9 +1,4 @@
 body {
-    background: linear-gradient(#451933,
-            #280028,
-            #2B124C,
-            #522B5B,
-            #854F6C) no-repeat;
     width: 100%;
     height: 100%;
     font-size: 1vw;
@@ -92,7 +87,7 @@ body {
 .topTrack_int {
     display: flex;
     justify-content: space-between;
-    padding:  0.5vw 2vh;
+    padding: 0.5vw ;
 }
 
 .tackTitle {
